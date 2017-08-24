@@ -27,9 +27,9 @@ ext {
     mainVersion = 3 // 主版本号
     subVersion = 0  //特性版本号
     branch = 0 //分支版本号，feature-0,hotfix-7,master-8,release-9
-    gitHead = 'git rev-list --count HEAD'.execute().text.trim();
-    _versionCode = (gitHead == null || gitHead.length() == 0) ? -1 : Integer.parseInt(gitHead)
+    _versionCode = 'git rev-list --count HEAD'.execute().text.trim().toInteger();
     _versionName = mainVersion + "." + subVersion + "." + branch + "." + _versionCode
+    _versionFullName = mainVersion + "_" + subVersion + "_" + branch + "_" + _versionCode
 
     appBuildToolVersion = '24.0.3'
     appCompileSdkVersion = 24
@@ -40,7 +40,4 @@ ext {
     rxjavaVersion = '1.2.1'
     rxandroidVersion = '1.0.1'
     retrofit2Version = '2.1.0'
-
-    repositoryUrl = 'http://nexus.sdp.nd/nexus/content/repositories/android/'
-    snapshotRepositoryUrl = 'http://nexus.sdp.nd/nexus/content/repositories/android_snapshot/'
 }
