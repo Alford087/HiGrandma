@@ -38,6 +38,7 @@ public class SettingActivity extends BaseActivity {
         Intent intent = new Intent(Settings.ACTION_SETTINGS);
         startActivity(intent);
     }
+
     @OnClick(R.id.btn_alarm)
     public void startAlarm() {
         Intent alarmas = new Intent(AlarmClock.ACTION_SET_ALARM);
@@ -49,16 +50,19 @@ public class SettingActivity extends BaseActivity {
         Intent intent = new Intent(MediaStore.ACTION_IMAGE_CAPTURE);
         startActivity(intent);
     }
+
     @OnClick(R.id.btn_calendar)
     public void startCalendar() {
         Intent intent = getApplication().getPackageManager().getLaunchIntentForPackage("com.android.calendar");
         startActivity(intent);
     }
+
     @OnClick(R.id.btn_contact)
     public void startContact() {
         Intent intent = getApplication().getPackageManager().getLaunchIntentForPackage("com.android.contacts");
         startActivity(intent);
     }
+
     @OnClick(R.id.btn_file)
     public void startGallery() {
         Intent intent = getApplication().getPackageManager().getLaunchIntentForPackage("zte.com.cn.filer");

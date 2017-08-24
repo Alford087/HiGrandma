@@ -2,10 +2,7 @@ package com.mars.higrandma;
 
 import android.app.Application;
 
-import com.mars.higrandma.core.device.DeviceModel;
-import com.mars.higrandma.core.utils.SmartDebugUtils;
-
-import rx.Subscriber;
+import mars.core.CrashHandler;
 import rx.Subscription;
 
 /**

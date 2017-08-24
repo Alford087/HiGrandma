@@ -11,7 +11,6 @@ import com.mars.higrandma.core.main.ContactListModel;
 import com.mars.higrandma.core.main.entity.ContactInfo;
 import com.mars.higrandma.core.main.entity.ContactInfoItem;
 import com.mars.higrandma.ui.base.BaseFragment;
-import com.mars.higrandma.ui.main.dialog.DialDialogFragment;
 
 import java.util.ArrayList;
 

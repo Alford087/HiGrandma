@@ -1,6 +1,5 @@
 package com.mars.higrandma.ui.main;
 
-import android.content.Context;
 import android.os.Bundle;
 import android.text.TextUtils;
 import android.view.Menu;

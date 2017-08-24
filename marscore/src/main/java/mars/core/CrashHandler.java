@@ -1,4 +1,4 @@
-package com.mars.higrandma;
+package mars.core;
 
 import android.content.Context;
 import android.content.pm.PackageInfo;
@@ -7,6 +7,7 @@ import android.content.pm.PackageManager.NameNotFoundException;
 import android.os.Build;
 import android.os.Environment;
 import android.util.Log;
+
 import java.io.File;
 import java.io.FileOutputStream;
 import java.io.IOException;

@@ -58,7 +58,8 @@
         app:layout_heightPercent="25%"
         app:layout_widthPercent="25%"
         android:layout_alignBaseline="@+id/btn_system_setting"
-        android:layout_alignBottom="@+id/btn_system_setting" android:text="@string/hg_system_app_file"
+        android:layout_alignBottom="@+id/btn_system_setting"
+        android:text="@string/hg_system_app_file"
         android:layout_toRightOf="@+id/btn_app_list"
         android:layout_toEndOf="@+id/btn_app_list" />
 

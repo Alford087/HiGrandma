@@ -36,8 +36,10 @@ ext {
     appMinSdkVersion = 14
     appTargetSdkVersion = 24
 
+
     supportVersion = '24.2.1'
     rxjavaVersion = '1.2.1'
     rxandroidVersion = '1.0.1'
     retrofit2Version = '2.1.0'
+    butterknifeVersion = '5.1.1'
 }

@@ -1,11 +1,11 @@
 package com.mars.higrandma.ui.main.dialog;
+
 import android.os.Bundle;
 import android.support.v4.app.DialogFragment;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.view.Window;
-
 
 import com.mars.higrandma.R;
 
@@ -17,6 +17,7 @@ public class ClockDialogFragment extends DialogFragment {
 
     public ClockDialogFragment() {
     }
+
     public static ClockDialogFragment newInstance() {
         ClockDialogFragment fragment = new ClockDialogFragment();
         Bundle args = new Bundle();
