@@ -1,0 +1,29 @@
+<resources>
+
+    <string name="app_name">HiG</string>
+
+    <string name="app_ok">确定</string>
+    <string name="app_cancel">取消</string>
+
+    <string name="hg_flashlight">手电筒</string>
+
+    <!---->
+    <string name="hg_contact_message">发信息</string>
+    <string name="hg_contact_dial">打电话</string>
+    <string name="hg_contact_hangup">挂断</string>
+
+    <string name="hg_app_zone">广场中心</string>
+
+    <string name="hg_app_setting">应用设置</string>
+
+    <string name="hg_system_setting">系统设置</string>
+
+    <string name="hg_system_app_list">应用列表</string>
+    <string name="hg_system_app_camera">相机</string>
+    <string name="hg_system_app_alarm">闹钟</string>
+    <string name="hg_system_app_calendar">日历</string>
+    <string name="hg_system_app_contact">通讯录</string>
+    <string name="hg_system_app_file">文件</string>
+    <string name="hg_app_enter">进入</string>
+
+</resources>

@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.percent.PercentRelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <Button
+        android:id="@+id/btn_app_list"
+        style="@style/App_Setting_Them"
+        android:layout_gravity="left|top"
+        android:background="#0a96af"
+        android:text="@string/hg_system_app_list"
+        app:layout_heightPercent="50%"
+        app:layout_widthPercent="50%" />
+
+    <Button
+        android:id="@+id/btn_alarm"
+        style="@style/App_Setting_Them"
+        android:layout_toRightOf="@id/btn_app_list"
+        android:background="#4a5a5b"
+        android:text="@string/hg_system_app_alarm"
+        app:layout_heightPercent="25%"
+        app:layout_widthPercent="50%" />
+
+
+    <Button
+        android:id="@+id/btn_camera"
+        style="@style/App_Setting_Them"
+        android:layout_below="@+id/btn_alarm"
+        android:layout_toRightOf="@id/btn_app_list"
+        android:background="#790410"
+        android:text="@string/hg_system_app_camera"
+        app:layout_heightPercent="25%"
+        app:layout_widthPercent="50%" />
+
+    <Button
+        android:id="@+id/btn_calendar"
+        style="@style/App_Setting_Them"
+        android:layout_below="@id/btn_app_list"
+        android:background="#cd3d39"
+        android:text="@string/hg_system_app_calendar"
+        app:layout_heightPercent="25%"
+        app:layout_widthPercent="50%" />
+
+    <Button
+        android:id="@+id/btn_contact"
+        style="@style/App_Setting_Them"
+        android:layout_below="@+id/btn_calendar"
+        android:background="#182b0a"
+        android:text="@string/hg_system_app_contact"
+        app:layout_heightPercent="25%"
+        app:layout_widthPercent="50%" />
+
+    <Button
+        android:id="@+id/btn_file"
+        style="@style/App_Setting_Them"
+        android:background="#f3b358"
+        app:layout_heightPercent="25%"
+        app:layout_widthPercent="25%"
+        android:layout_alignBaseline="@+id/btn_system_setting"
+        android:layout_alignBottom="@+id/btn_system_setting" android:text="@string/hg_system_app_file"
+        android:layout_toRightOf="@+id/btn_app_list"
+        android:layout_toEndOf="@+id/btn_app_list" />
+
+    <Button
+        android:id="@+id/btn_system_setting"
+        style="@style/App_Setting_Them"
+        android:layout_above="@+id/btn_app_version"
+        android:layout_alignParentRight="true"
+        android:background="#1a7e61"
+        android:text="@string/hg_system_setting"
+        app:layout_heightPercent="25%"
+        app:layout_widthPercent="25%" />
+
+    <Button
+        android:id="@+id/btn_app_version"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:background="#831563"
+        android:textColor="@android:color/white"
+        app:layout_heightPercent="25%"
+        app:layout_widthPercent="50%" />
+
+</android.support.percent.PercentRelativeLayout>

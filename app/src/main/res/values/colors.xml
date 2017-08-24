@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#005831</color>
+    <color name="colorPrimaryDark">#014325</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="color_smart_app_bg">#ea005831</color>
+    <color name="color_gray">#77787B</color>
+
+</resources>
